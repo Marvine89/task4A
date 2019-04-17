@@ -1,3 +1,55 @@
 .quote-page {
-  
+  text-align: center;
+  &__price-block-underline {
+    display: inline-block;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #000;
+  }
+  &__price-block {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  &__price {
+    font-size: 75px;
+    margin: 0px;
+    letter-spacing: 1px;
+    line-height: 60px;
+  }
+  &__price-block-col-2 {
+    margin-left: 10px;
+  }
+  &__price-block-col-2-1 {
+    font-size: 12px;
+    margin-bottom: 1px;
+    margin: 0;
+  }
+  &__price-block-col-2-2 {
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+  &___item-detail {
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 1px;
+  }
+  &___button-block {
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+  }
+  &__button-link {
+    width: 245px;
+    padding: 12px;
+    background-color: #ffff25;
+    font-size: 19px;
+    font-weight: bold;
+    color: #000;
+  }
 }
