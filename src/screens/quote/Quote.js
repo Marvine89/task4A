@@ -21,7 +21,7 @@ export class Quote extends Component {
           <a href="/start-quote" className="button quote-page__button-link">Get Cover</a>
         </div>
         <div className="quote-page___accordion">
-          <a href="/start-quote" className="button quote-page__button-link">Get Cover</a>
+        
         </div>
       </div>
     );
