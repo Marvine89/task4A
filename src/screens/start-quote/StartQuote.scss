@@ -1,3 +1,50 @@
 .start-quote-page {
-  
+  width: 100%;
+  min-height: calc(80vh - 65px);
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &__message-block {
+    display: flex;
+    padding: 0px 40px 0px 5px;
+  }
+  &__message-img-block {
+    height: inherit;
+    display: flex;
+    align-items: flex-end;
+  }
+  &__message-img {
+    width: 50px;
+    height: auto;
+    margin-bottom: -9px;
+  }
+  &__message {
+    background-color: #efefef;
+    border-radius: 10px 10px 10px 0px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    font-size: 20px;
+    padding: 10px;
+  }
+  &__message-btn-block {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 0px 12px;
+      margin-top: 15px;
+  }
+  &__message-btn {
+    background-color: #ffff25;
+    padding: 15px 25px;
+    width: 190px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  &__message-btn-icon {
+      margin-left: 10px;
+      margin-top: 1px;
+  }
 }
