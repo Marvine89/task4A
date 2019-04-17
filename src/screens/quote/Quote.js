@@ -23,12 +23,12 @@ export class Quote extends Component {
         </div>
         <div className="quote-page___accordion-block">
           {
-            QuoteData.cover.map(element => (
-              <div className="quote-page___accordion">
+            QuoteData.cover.map( (element, i) => (
+              <div className="quote-page___accordion" key={i}>
                 <div className="quote-page___accordion--block-1">{element.title}</div>
                 <div className="quote-page___accordion--block-2">{element.detail}</div>
                 <div className="quote-page___accordion--block-3">
-                  <i class="fas fa-plus quote-page___accordion-block-icon"></i>
+                  <i className="fas fa-plus quote-page___accordion-block-icon"></i>
                 </div>
               </div>
             ))
