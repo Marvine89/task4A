@@ -16,7 +16,7 @@ export class StartQuote extends Component {
           </div>
         </div>
         <div className="start-quote-page__message-btn-block">
-          <a href="/" className="button start-quote-page__message-btn">
+          <a href="/quote" className="button start-quote-page__message-btn">
             Continue
             <i className="fas fa-arrow-right start-quote-page__message-btn-icon"></i>
           </a>
